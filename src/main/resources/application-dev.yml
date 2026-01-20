@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cleanarch
+    username: cleanarch
+    password: cleanarch
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+
+logging:
+  level:
+    com.blerimhasa.cleanarch: DEBUG
+    org.springframework.security: DEBUG
